@@ -14,7 +14,7 @@ A comprehensive web application for managing restaurant operations, including me
 
 ---
 
-## 🛠️ Tech Stack
+## 🔦 Tech Stack
 
 ### Frontend:
 - **Framework:** Vue.js
@@ -29,7 +29,7 @@ A comprehensive web application for managing restaurant operations, including me
 
 ---
 
-## 📋 Setup and Installation
+## 🗋 Setup and Installation
 
 ### Prerequisites
 - **Node.js** (14.x or later)
@@ -42,54 +42,73 @@ A comprehensive web application for managing restaurant operations, including me
    ```bash
    git clone <repository_url>
    cd restaurant-management-system
+   ```
 
-Setup Backend:
-Always show details
+2. **Setup Backend:**
+   ```bash
+   cd backend
+   npm install
+   ```
 
-cd backend
-npm install
-Setup Frontend:
-Always show details
+3. **Setup Frontend:**
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-cd ../frontend
-npm install
-Setup Database:
-Import the db_restaurant.sql file into your MySQL database.
-Configure database connection in backend/config/database.js.
-Run the Development Servers:
-Backend:
-Always show details
+4. **Setup Database:**
+   - Import the `db_restaurant.sql` file into your MySQL database:
+   - Configure the database connection in `backend/config/database.js`.
 
-cd backend
-npm start
-Frontend:
-Always show details
+5. **Run the Development Servers:**
+   - **Backend:**
+     ```bash
+     cd backend
+     npm start
+     ```
+   - **Frontend:**
+     ```bash
+     cd frontend
+     npm run serve
+     ```
 
-cd frontend
-npm run serve
-📦 Build for Production
+---
 
-Build Frontend:
-Always show details
+## 📦 Build for Production
 
-cd frontend
-npm run build
-Deploy Backend and Frontend:
-Serve the built frontend files (dist/) with a static file server.
-Deploy the backend with a Node.js hosting solution (e.g., Heroku, AWS).
-🛡️ Security
+1. **Build Frontend:**
+   ```bash
+   cd frontend
+   npm run build
+   ```
 
-Use environment variables to store sensitive information like database credentials.
-Sanitize user inputs to prevent SQL injection.
-Implement JWT for secure authentication.
-📖 License
+2. **Deploy Backend and Frontend:**
+   - Serve the built frontend files (`dist/`) with a static file server.
+   - Deploy the backend with a Node.js hosting solution (e.g., Heroku, AWS).
 
-This project is licensed under the MIT License.
+---
 
-🤝 Contributions
+## 🚪 Security
+
+- Use environment variables to store sensitive information like database credentials.
+- Sanitize user inputs to prevent SQL injection.
+- Implement JWT for secure authentication.
+
+---
+
+## 📚 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🤝 Contributions
 
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a feature branch.
-Submit a pull request.
+1. Fork the repository.
+2. Create a feature branch.
+3. Submit a pull request.
+
+---
+
