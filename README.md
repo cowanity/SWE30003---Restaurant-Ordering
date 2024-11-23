@@ -1,4 +1,4 @@
-# Restaurant Management System
+# Restaurant Management System - SWE30003 - ASSIGNMENT 3
 
 A comprehensive web application for managing restaurant operations, including menu management, table booking, cart functionality, and user authentication.
 
